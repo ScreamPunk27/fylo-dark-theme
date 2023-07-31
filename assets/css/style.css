@@ -358,3 +358,122 @@ form input[type="submit"]{
 .footer__content__social li a i{
     color: #fff;
 }
+
+
+
+@media screen and (min-width:1000px){
+
+    /*HEADER*/
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content .container-img, .main-content__text{
+        width: 50%;
+    }
+
+    .main-content__text p{
+        padding: 0 5rem;
+    }
+
+    .main-content__text button{
+        width: 40%;
+    }
+
+
+    /*FEATURES*/
+    .features{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        margin-top: 10rem;
+    }
+
+    .features__container{
+        width: 50%;
+    }
+
+    .features__container .container-img{
+        width: 60px;
+    }
+
+    .features__container .container-img img{
+        width: 100%;
+    }
+
+
+    /*PRODUCTIVE*/
+    .productive{
+        display: flex;
+        align-items: center;
+    }
+
+    .productive .container-img{
+        width: 50%;
+    }
+
+    .productive .container-img img{
+        width: 100%;
+    }
+
+    .productive h1{
+        font-size: 2rem;
+    }
+    
+    .productive p{
+        font-size: 1rem;
+    }
+      
+    .productive li a{
+        font-size: 1rem;
+       
+    }
+
+    /*COMMENTS*/
+    .comments{
+        display: flex;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    .comment{
+        padding: 1.5rem 1rem;
+    }
+
+    /*FOOTER*/
+    .footer__form{
+        width: 60%;
+        padding: 1rem 3rem;
+       
+    }
+
+    .footer__form h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .footer__form p{
+        font-size: .9rem;
+    }
+
+    .footer__form form{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+        
+    form input[type="submit"]{
+        font-weight: 600;
+    }
+
+    .email{
+        width: 70%;
+        margin-right: 0.5rem;
+    }
+    .submit{
+        width: 30%;
+        margin-left: 0.5rem;
+    }
+}
